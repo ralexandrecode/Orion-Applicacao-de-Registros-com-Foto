@@ -8,11 +8,11 @@ aws s3api put-bucket-cors \
     --bucket new-bkt2027 \
     --cors-configuration file://cors.json
 
-Listar bucket
+# Listar bucket
 
 aws s3 ls
 
-Política do bucket
+# Política do bucket
 
 {
     "Version": "2012-10-17",
@@ -28,6 +28,6 @@ Política do bucket
 }
 
 
-Atualizações:
+# Atualizações:
 
 Gerar URLs pré-assinadas para acesso temporário aos objetos S3.
