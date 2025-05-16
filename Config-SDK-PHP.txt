@@ -1,0 +1,79 @@
+SDK AMAZON LINUX
+
+Instalar as dependências do composer
+sudo yum install -y php-mbstring php-xml
+
+Instalar composer
+cd ~
+curl -sS https://getcomposer.org/installer -o composer-setup.php
+
+sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
+
+Verificar Composer instalado
+
+composer --version
+
+ /usr/local/bin/composer --version
+
+Iniciar o composer
+sudo composer init
+
+Instalar o SDK
+
+ sudo composer require aws/aws-sdk-php
+
+composer require aws/aws-sdk-php
+
+Verificar versão do SDK
+
+cat composer.lock | grep "aws/aws-sdk-php"
+
+
+CÓDIGO DE TESTE DO SDK:
+
+<?php
+require 'vendor/autoload.php';
+
+use Aws\S3\S3Client;
+
+$s3 = new S3Client([
+    'version' => 'latest',
+    'region'  => 'us-west-2', // Substitua pela sua região
+]);
+
+echo "SDK da AWS para PHP instalado com sucesso!\n";
+
+// Tente listar seus buckets S3 (requer permissões IAM)
+try {
+    $result = $s3->listBuckets();
+    echo "Seus buckets S3:\n";
+    foreach ($result['Buckets'] as $bucket) {
+        echo "- " . $bucket['Name'] . "\n";
+    }
+} catch (\Aws\Exception\AwsException $e) {
+    echo "Erro ao listar buckets: " . $e->getMessage() . "\n";
+}
+?>
+
+Verificar o SDK instalado.
+
+sudo php teste_sdk.php
+
+
+SDK UBUNTU LINUX
+
+sudo apt update
+
+sudo apt install composer
+
+composer require aws/aws-sdk-php
+
+composer show aws/aws-sdk-php
+
+sudo apt install php-xml
+
+sudo apt install php-curl
+
+composer update aws/aws-sdk-php
+
+composer update guzzlehttp/guzzle
