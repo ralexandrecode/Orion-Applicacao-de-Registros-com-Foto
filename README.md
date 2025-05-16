@@ -6,6 +6,7 @@ Aplicação web PHP para gerenciamento de clientes utilizando Amazon DynamoDB pa
 
 *   Amazon EC2
 *   AMI Linux
+*   AWS CLI
 *   PHP 8.4
 *   AWS SDK for PHP
 *   Amazon DynamoDB
@@ -50,4 +51,11 @@ O objetivo é desenvolver um projeto final de formação do curso de arquiteto d
 **Sugestões de melhoria**
 
 1. Implementar criptografia em trânsito do protocolo HTTPS através do AWS ACM
-3. Instalar os seguintes recursos essenciais: WAF, NACL, ASG, ALB, R53, IAC, 
+3. Instalar os seguintes recursos essenciais: WAF, NACL, ASG, ALB, R53, IAC,
+
+![Diagrama da Arquitetura](https://github.com/ralexandrecode/Orion-Applicacao-de-Registros-com-Foto/blob/main/digrama1-app4.v2.png)
+# Conecte-se comigo: 🤝🏽
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ricardoalexandreprofissional/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ralexandrecode)
+[![AWS](https://img.shields.io/badge/AWS-000.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://www.credly.com/users/ricardoalexandre.profissional/badges)
+[![My profile DIO](https://img.shields.io/badge/-Meu%20Perfil%20na%20DIO-30A3DER?style=for-the-badge)](https://www.dio.me/users/ricardoalexandre_profissional)
