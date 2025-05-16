@@ -52,6 +52,8 @@ O objetivo é desenvolver um projeto final de formação do curso de arquiteto d
 
 1. Implementar criptografia em trânsito do protocolo HTTPS através do AWS ACM
 3. Instalar os seguintes recursos essenciais: WAF, NACL, ASG, ALB, R53, IAC,
+4. Implementar a aplicação usando conteiners do ECS no fargate.
+
 
 ![Diagrama da Arquitetura](https://github.com/ralexandrecode/Orion-Applicacao-de-Registros-com-Foto/blob/main/digrama1-app4.v2.png)
 # Conecte-se comigo: 🤝🏽
