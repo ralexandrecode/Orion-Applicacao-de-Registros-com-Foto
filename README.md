@@ -46,3 +46,8 @@ O objetivo é desenvolver um projeto final de formação do curso de arquiteto d
 1.  Acesse a aplicação através do seu navegador (ex: `http://<seu_ip_publico>/index.php`).
 2.  Use as funcionalidades de cadastro, listagem, edição, exclusão e exportação.
 3.  Verifique os arquivos de texto complementares com passos e comandos detalhados.
+
+**Sugestões de melhoria**
+
+1. Implementar criptografia em trânsito do protocolo HTTPS através do AWS ACM
+3. Instalar os seguintes recursos essenciais: WAF, NACL, ASG, ALB, R53, IAC, 
