@@ -4,33 +4,41 @@ Aplicação web PHP para gerenciamento de clientes utilizando Amazon DynamoDB pa
 
 **Tecnologias:**
 
-*   PHP 8.1
+*   Amazon EC2
+*   AMI Linux
+*   PHP 8.4
 *   AWS SDK for PHP
 *   Amazon DynamoDB
 *   Amazon S3
 *   HTML, CSS
-*   Bootstrap (Opcional, se você usar)
+
+**Objetivo**
+
+O objetivo é desenvolver um projeto final de formação do curso de arquiteto de soluções que simula a migração e modernização de uma aplicação CRUD em PHP/MySQL rodando em uma máquina virtual na rede local para nuvem utilizando armazenamento altamente escalável e disponível.
 
 **Instalação e Configuração:**
 
 1.  **Pré-requisitos:**
-    *   PHP 8.1+
+   
+    *   PHP 8
     *   Composer
     *   Conta AWS com permissões para DynamoDB, S3 e EC2.
     *   Instância EC2 rodando com um servidor web (Apache ou Nginx) e PHP.
 
-2.  **Instalação das Dependências:**
+3.  **Instalação das Dependências:**
 
     ```bash
     composer install
     ```
 
-3.  **Configuração da AWS:**
+4.  **Configuração da AWS:**
+   
     *   Crie uma tabela no DynamoDB chamada `Clientes`.
     *   Crie um bucket S3 chamado `new-bkt2027`.
     *   Configure as credenciais da AWS na sua instância EC2 (através de um perfil IAM)
 
-4.  **Implantação:**
+5.  **Implantação:**
+   
     *   Copie os arquivos do projeto para o diretório raiz do seu servidor web (ex: `/var/www/html`).
 
 **Como Usar:**
