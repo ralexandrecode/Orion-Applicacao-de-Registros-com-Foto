@@ -28,11 +28,11 @@ O objetivo é desenvolver um projeto final de formação do curso de arquiteto d
 
 3.  **Instalação das Dependências:**
 
-    ```bash
-    composer install
-    ```
 
-4.  **Configuração da AWS:**
+    * Instalar o composer
+    * Verifique os arquivos complementares com os passos
+
+4.  **Configuração essencial da AWS:**
    
     *   Crie uma tabela no DynamoDB chamada `Clientes`.
     *   Crie um bucket S3 chamado `new-bkt2027`.
