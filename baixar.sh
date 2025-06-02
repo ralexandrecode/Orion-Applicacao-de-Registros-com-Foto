@@ -1,0 +1,25 @@
+#PHP
+sudo yum install php -y
+
+# Criar o arquivo info.php com informações do PHP
+echo "<?php phpinfo(); ?>" > /var/www/html/index.php
+
+# Definir permissões corretas para o arquivo
+sudo chmod 644 /var/www/html/index.php
+
+#Baixar app4
+
+cd /var/www/html
+
+sudo mkdir app
+
+sudo wget https://github.com/ralexandrecode/Orion-Applicacao-de-Registros-com-Foto/raw/refs/heads/main
+/app4.v2.gz
+
+sudo tar xfvz app4.v2.gz -C app
+
+sudo rm -f app4.v2.gz
+
+sudo cp app/* .
+
+sudo systemctl restart httpd
