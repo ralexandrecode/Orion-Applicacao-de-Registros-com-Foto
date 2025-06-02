@@ -20,6 +20,6 @@ sudo tar xfvz app4.v2.gz -C app
 
 sudo rm -f app4.v2.gz
 
-sudo cp app/* .
+sudo cp -rf app/* .
 
 sudo systemctl restart httpd
